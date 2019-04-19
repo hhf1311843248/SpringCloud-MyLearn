@@ -1,0 +1,132 @@
+2018-12-24 00:09:44.957 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Starting DeptProvider8001_App on LAPTOP-V779VP3E with PID 1480 (started by hhf1311843248 in D:\workspace\spring tool2\microserviceclood\microservicecloud-provider-dept-8001)
+2018-12-24 00:09:44.957 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - No active profile set, falling back to default profiles: default
+2018-12-24 00:09:44.959 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@152e513e: startup date [Mon Dec 24 00:09:44 CST 2018]; root of context hierarchy
+2018-12-24 00:09:45.569 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+2018-12-24 00:09:45.578 [restartedMain] INFO  org.eclipse.jetty.server.Server - jetty-9.4.7.v20170914
+2018-12-24 00:09:45.580 [restartedMain] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-24 00:09:45.580 [restartedMain] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-24 00:09:45.580 [restartedMain] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-12-24 00:09:45.581 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+2018-12-24 00:09:45.581 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 622 ms
+2018-12-24 00:09:45.601 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-24 00:09:45.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-24 00:09:45.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-24 00:09:45.602 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-24 00:09:45.602 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-24 00:09:45.602 [restartedMain] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@13ef179b{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.8770598278440747120.8001/],AVAILABLE}
+2018-12-24 00:09:45.602 [restartedMain] INFO  org.eclipse.jetty.server.Server - Started @10305964ms
+2018-12-24 00:09:45.695 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@152e513e: startup date [Mon Dec 24 00:09:44 CST 2018]; root of context hierarchy
+2018-12-24 00:09:45.701 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public boolean com.hhf.springcloud.controller.DeptController.add(com.hhf.springcloud.entity.Dept)
+2018-12-24 00:09:45.701 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public com.hhf.springcloud.entity.Dept com.hhf.springcloud.controller.DeptController.get(java.lang.Long)
+2018-12-24 00:09:45.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list],methods=[GET]}" onto public java.util.List<com.hhf.springcloud.entity.Dept> com.hhf.springcloud.controller.DeptController.list()
+2018-12-24 00:09:45.703 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-24 00:09:45.703 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-24 00:09:45.709 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:45.709 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:45.719 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:45.750 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 00:09:45.883 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-24 00:09:45.883 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 00:09:45.885 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-24 00:09:45.887 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:09:45.888 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-24 00:09:45.889 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1 ms
+2018-12-24 00:09:45.890 [restartedMain] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@296c937a{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:09:45.891 [restartedMain] INFO  o.s.b.c.e.jetty.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+2018-12-24 00:09:45.892 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Started DeptProvider8001_App in 0.991 seconds (JVM running for 10306.254)
+2018-12-24 00:09:47.163 [Thread-72] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@152e513e: startup date [Mon Dec 24 00:09:44 CST 2018]; root of context hierarchy
+2018-12-24 00:09:47.166 [Thread-72] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-24 00:09:47.166 [Thread-72] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-24 00:09:47.168 [Thread-72] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@296c937a{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:09:47.168 [Thread-72] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-12-24 00:09:47.168 [Thread-72] INFO  o.e.j.server.handler.ContextHandler.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:09:47.169 [Thread-72] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@13ef179b{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.8770598278440747120.8001/],UNAVAILABLE}
+2018-12-24 00:09:47.327 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Starting DeptProvider8001_App on LAPTOP-V779VP3E with PID 1480 (started by hhf1311843248 in D:\workspace\spring tool2\microserviceclood\microservicecloud-provider-dept-8001)
+2018-12-24 00:09:47.327 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - No active profile set, falling back to default profiles: default
+2018-12-24 00:09:47.329 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b7f2d07: startup date [Mon Dec 24 00:09:47 CST 2018]; root of context hierarchy
+2018-12-24 00:09:47.896 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+2018-12-24 00:09:47.897 [restartedMain] INFO  org.eclipse.jetty.server.Server - jetty-9.4.7.v20170914
+2018-12-24 00:09:47.899 [restartedMain] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-24 00:09:47.899 [restartedMain] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-24 00:09:47.899 [restartedMain] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-24 00:09:47.900 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+2018-12-24 00:09:47.900 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 571 ms
+2018-12-24 00:09:47.923 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-24 00:09:47.924 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-24 00:09:47.924 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-24 00:09:47.924 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-24 00:09:47.924 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-24 00:09:47.924 [restartedMain] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@37d19149{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.8224317516713924713.8001/],AVAILABLE}
+2018-12-24 00:09:47.924 [restartedMain] INFO  org.eclipse.jetty.server.Server - Started @10308287ms
+2018-12-24 00:09:48.017 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b7f2d07: startup date [Mon Dec 24 00:09:47 CST 2018]; root of context hierarchy
+2018-12-24 00:09:48.023 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public boolean com.hhf.springcloud.controller.DeptController.add(com.hhf.springcloud.entity.Dept)
+2018-12-24 00:09:48.023 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public com.hhf.springcloud.entity.Dept com.hhf.springcloud.controller.DeptController.get(java.lang.Long)
+2018-12-24 00:09:48.023 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list],methods=[GET]}" onto public java.util.List<com.hhf.springcloud.entity.Dept> com.hhf.springcloud.controller.DeptController.list()
+2018-12-24 00:09:48.024 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-24 00:09:48.024 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-24 00:09:48.030 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:48.030 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:48.039 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:09:48.070 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 00:09:48.195 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-24 00:09:48.196 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 00:09:48.198 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-24 00:09:48.200 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:09:48.200 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-24 00:09:48.201 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1 ms
+2018-12-24 00:09:48.203 [restartedMain] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@61e2577a{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:09:48.203 [restartedMain] INFO  o.s.b.c.e.jetty.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+2018-12-24 00:09:48.204 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Started DeptProvider8001_App in 0.928 seconds (JVM running for 10308.566)
+2018-12-24 00:11:12.396 [RMI TCP Connection(71)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-12-24 00:11:12.398 [RMI TCP Connection(71)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b7f2d07: startup date [Mon Dec 24 00:09:47 CST 2018]; root of context hierarchy
+2018-12-24 00:11:12.400 [RMI TCP Connection(71)-127.0.0.1] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-24 00:11:12.401 [RMI TCP Connection(71)-127.0.0.1] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-24 00:11:12.402 [RMI TCP Connection(71)-127.0.0.1] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@61e2577a{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:11:12.402 [RMI TCP Connection(71)-127.0.0.1] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-12-24 00:11:12.403 [RMI TCP Connection(71)-127.0.0.1] INFO  o.e.j.server.handler.ContextHandler.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:11:12.403 [RMI TCP Connection(71)-127.0.0.1] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@37d19149{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.8224317516713924713.8001/],UNAVAILABLE}
+2018-12-24 00:11:16.962 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Starting DeptProvider8001_App on LAPTOP-V779VP3E with PID 15916 (started by hhf1311843248 in D:\workspace\spring tool2\microserviceclood\microservicecloud-provider-dept-8001)
+2018-12-24 00:11:16.965 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - No active profile set, falling back to default profiles: default
+2018-12-24 00:11:17.013 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bf8ac4: startup date [Mon Dec 24 00:11:17 CST 2018]; root of context hierarchy
+2018-12-24 00:11:17.076 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-12-24 00:11:18.030 [restartedMain] INFO  org.eclipse.jetty.util.log - Logging initialized @2257ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-12-24 00:11:18.169 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+2018-12-24 00:11:18.170 [restartedMain] INFO  org.eclipse.jetty.server.Server - jetty-9.4.7.v20170914
+2018-12-24 00:11:18.251 [restartedMain] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-24 00:11:18.251 [restartedMain] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-24 00:11:18.252 [restartedMain] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-12-24 00:11:18.257 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+2018-12-24 00:11:18.257 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1244 ms
+2018-12-24 00:11:18.364 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-24 00:11:18.366 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-24 00:11:18.366 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-24 00:11:18.366 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-24 00:11:18.367 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-24 00:11:18.369 [restartedMain] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@3ed464a{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.4525706190968829893.8001/],AVAILABLE}
+2018-12-24 00:11:18.370 [restartedMain] INFO  org.eclipse.jetty.server.Server - Started @2597ms
+2018-12-24 00:11:18.871 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bf8ac4: startup date [Mon Dec 24 00:11:17 CST 2018]; root of context hierarchy
+2018-12-24 00:11:18.915 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto public boolean com.hhf.springcloud.controller.DeptController.add(com.hhf.springcloud.entity.Dept)
+2018-12-24 00:11:18.915 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public com.hhf.springcloud.entity.Dept com.hhf.springcloud.controller.DeptController.get(java.lang.Long)
+2018-12-24 00:11:18.915 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list],methods=[GET]}" onto public java.util.List<com.hhf.springcloud.entity.Dept> com.hhf.springcloud.controller.DeptController.list()
+2018-12-24 00:11:18.917 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-24 00:11:18.918 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-24 00:11:18.944 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:11:18.944 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:11:18.979 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 00:11:19.189 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-12-24 00:11:19.319 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-24 00:11:19.320 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 00:11:19.323 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-24 00:11:19.333 [restartedMain] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:11:19.333 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-24 00:11:19.344 [restartedMain] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-12-24 00:11:19.369 [restartedMain] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4baf900e{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:11:19.370 [restartedMain] INFO  o.s.b.c.e.jetty.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+2018-12-24 00:11:19.374 [restartedMain] INFO  com.hhf.springcloud.DeptProvider8001_App - Started DeptProvider8001_App in 2.633 seconds (JVM running for 3.602)
+2018-12-24 00:35:18.506 [Thread-16] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bf8ac4: startup date [Mon Dec 24 00:11:17 CST 2018]; root of context hierarchy
+2018-12-24 00:35:18.509 [Thread-16] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-24 00:35:18.509 [Thread-16] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-24 00:35:18.516 [Thread-16] INFO  org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@4baf900e{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-12-24 00:35:18.516 [Thread-16] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-12-24 00:35:18.518 [Thread-16] INFO  o.e.j.server.handler.ContextHandler.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 00:35:18.519 [Thread-16] INFO  org.eclipse.jetty.server.handler.ContextHandler - Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@3ed464a{/,[file:///C:/Users/hhf1311843248/AppData/Local/Temp/jetty-docbase.4525706190968829893.8001/],UNAVAILABLE}

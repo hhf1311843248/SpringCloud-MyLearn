@@ -1,0 +1,35 @@
+server: 
+  port: 9527
+ 
+spring: 
+  application:
+    name: microservicecloud-zuul-gateway
+ 
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka  
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true 
+
+#配置路由映射地址
+#没配置之前访问（微服务名microservicecloud-dept暴露在地址中）：
+#http://myzuul.com:9527/microservicecloud-dept/dept/get/2 
+#配置之后访问：
+#http://myzuul.com:9527/mydept/dept/get/1  
+zuul:
+  prefix: /hhf  #设置统一的公共前缀   访问：http://myzuul.com:9527/hhf/mydept/dept/get/1
+  #禁止原微服务名的访问
+  ignored-services: microservicecloud-dept   #禁用一个微服务名访问
+#  ignored-services: "*"     禁用多个微服务名称访问 
+  routes: 
+    mydept.serviceId: microservicecloud-dept
+    mydept.path: /mydept/** 
+ 
+info:
+  app.name: hhf-microcloud
+  company.name: www.hhf.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
